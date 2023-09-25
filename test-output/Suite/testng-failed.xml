@@ -5,6 +5,7 @@
     <classes>
       <class name="TLCAndroid.AppiumApp">
         <methods>
+          <include name="tearDown"/>
           <include name="ConfigureAppium"/>
           <include name="AppiumTest"/>
         </methods>
