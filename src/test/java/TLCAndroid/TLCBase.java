@@ -64,7 +64,7 @@ DesiredCapabilities caps = new DesiredCapabilities();
     	// Initialize the remote Webdriver using BrowserStack remote URL
     	// and desired capabilities defined above
         AndroidDriver driver = new AndroidDriver(
-        		new URL("http://#tarangvashisht_QoygJT:#quwKyFvRyAeW4LoPRqzd@hub.browserstack.com/wd/hub"), caps);
+        		new URL("http://hub.browserstack.com/wd/hub"), caps);
          
         
         // Invoke driver.quit() after the test is done to indicate that the test is completed.
@@ -111,7 +111,7 @@ DesiredCapabilities caps = new DesiredCapabilities();
 	
 	@AfterTest
 	public void tearDown() {
-		server.stop();
+		//server.stop();
 		System.out.println("Service stopped and TLC App opened Successfully.");
 	}
 
