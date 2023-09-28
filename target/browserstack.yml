@@ -1,17 +1,11 @@
 userName: tarangvashisht_QoygJT
 accessKey: quwKyFvRyAeW4LoPRqzd
 framework: testng
-app: bs://sample.app
+app: bs://ab990ebb5aa2bb23161aac4fb90cd6531f0117cd
 platforms:
   - platformName: android
     deviceName: Samsung Galaxy S22 Ultra
     platformVersion: 12.0
-  - platformName: android
-    deviceName: Google Pixel 7 Pro
-    platformVersion: 13.0
-  - platformName: android
-    deviceName: OnePlus 9
-    platformVersion: 11.0
 browserstackLocal: true
 buildName: browserstack-build-1
-projectName: BrowserStack Sample
+projectName: AndroidAppium
