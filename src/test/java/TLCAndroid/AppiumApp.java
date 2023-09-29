@@ -30,17 +30,17 @@ public class AppiumApp extends TLCBase {
 		//driver.findElement(By.id("com.theluxurycloset.tclapplication:id/tvNotReadyToSignUp")).click();
 		
 		Thread.sleep(5000);
-		List<WebElement> images = driver.findElements(By.id("countryImage"));
-		images.get(0).click();
-
-		images = driver.findElements(By.id("poster"));
-		images.get(1).click();
-
-		images = driver.findElements(By.id("product_item_image"));
-		images.get(0).click();
-
-		//driver.findElement(By.xpath("(//android.widget.Button)[2]")).click(); // Add to Bag
-		Thread.sleep(5000);
+//		List<WebElement> images = driver.findElements(By.id("countryImage"));
+//		images.get(0).click();
+//
+//		images = driver.findElements(By.id("poster"));
+//		images.get(1).click();
+//
+//		images = driver.findElements(By.id("product_item_image"));
+//		images.get(0).click();
+//
+//		//driver.findElement(By.xpath("(//android.widget.Button)[2]")).click(); // Add to Bag
+//		Thread.sleep(5000);
 		//driver.findElement(By.xpath("(//android.widget.Button)[2]")).click(); // Go to Bag
 		//driver.findElement(By.xpath("//android.widget.Button[@text='CHECKOUT']")).click(); // Cart
 		//driver.findElement(By.xpath("//android.widget.Button[@text='CHECKOUT']")).click(); // Checkout address
