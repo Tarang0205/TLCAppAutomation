@@ -14,7 +14,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
@@ -56,9 +55,9 @@ public class TLCBase {
 	 
 	    // Set other BrowserStack capabilities
 	    browserstackOptions.put("appiumVersion", "1.22.0");
-	    browserstackOptions.put("projectName", "Language Java Project");
-	    browserstackOptions.put("buildName", "Language-build-1");
-	    browserstackOptions.put("sessionName", "Language_1");
+	    browserstackOptions.put("projectName", "TLC Project");
+	    browserstackOptions.put("buildName", "TLC-build-1");
+	    browserstackOptions.put("sessionName", "TLC_1");
 	 
 	    // Passing browserstack capabilities inside bstack:options
 	    caps.setCapability("bstack:options", browserstackOptions);
