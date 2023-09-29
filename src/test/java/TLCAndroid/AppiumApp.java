@@ -21,9 +21,8 @@ public class AppiumApp extends TLCBase {
 		// driver.findElement(By.id("com.android.permissioncontroller:id/permission_allow_button")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.id("com.theluxurycloset.tclapplication:id/button_login")).click();
-		//Thread.sleep(5000);
-		driver.findElement(By.id("com.theluxurycloset.tclapplication:id/textField_email"))
-				.sendKeys("tarangtest@yopmail.com");
+		Thread.sleep(5000);
+		driver.findElement(By.id("com.theluxurycloset.tclapplication:id/textField_email")).sendKeys("tarangtest@yopmail.com");
 		driver.findElement(By.id("com.theluxurycloset.tclapplication:id/textField_password")).sendKeys("test1234");
 		//Thread.sleep(5000);
 		driver.findElement(By.id("com.theluxurycloset.tclapplication:id/button_normal_login")).click();
